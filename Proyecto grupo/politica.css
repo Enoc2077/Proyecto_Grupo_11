@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(14, 15, 105);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 40px;
+}
+
+.header h1 {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.nav {
+    background-color: #333;
+    text-align: center;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #123;
+}
+
+.cuadro-blanco2 {
+    position: absolute;
+    top: -400px;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    width: 800px;
+    height: 3050px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro-blanco-con-bordes {
+    position: relative;
+    top: 110px;
+    left: 0px;
+    width: 30%;
+    height: 290px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Cuadro-banco4 {
+    position: relative;
+    top: 350px;
+    left: 15px;
+    width: 90%;
+    height: 2300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro-azul {
+    position: fixed;
+    top: 10px;
+    left: 2%;
+    width: 90%;
+    height: 60px;
+    background-color: rgb(72, 243, 255);
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagen1 {
+    position: absolute;
+    top: 130px;
+    right: 25px;
+    width: 510px;
+    z-index: 1;
+}
+
+.texto1 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 8%;
+    left: 9%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.texto2 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.texto3 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.texto4 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 57%;
+    left: -4%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.texto5 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 74%;
+    left: 5%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.texto6 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 5px;
+    left: 320px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.politicas-generales {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 4%;
+    left: 30%;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.Txt1 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    font-size: 15x;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.fondo-imagen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('Imageneshtml/Picina\ 2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.Linea-nueva {
+    position: absolute;
+    top: 550px;
+    left: 35px;
+    width: 90%;
+    height: 1px;
+    background-color: black
+}
+
+.Linea-nueva2 {
+    position: absolute;
+    top: 620px;
+    left: 35px;
+    width: 90%;
+    height: 1px;
+    background-color: black
+}
+
+.Linea-nueva3 {
+    position: absolute;
+    top: 135px;
+    left: 35px;
+    width: 90%;
+    height: 1px;
+    background-color: black
+}
+
+
+
+
+
+
+
+
+
+
+
+

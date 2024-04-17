@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(14, 15, 105);
+    color: white; 
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    height: 40px;
+}
+
+.header h1 {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.nav {
+    background-color: #333;
+    text-align: center;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #123;
+}
+
+.cuadro-blanco {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    width: 800px;
+    height: 1500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro-blanco2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    width: 800px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro-blanco-con-bordes {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    width: 760px;
+    height: 265px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+.texto1 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50px;
+    font-size: 40px;
+    color: black;
+    z-index: 1;
+}
+
+.texto2 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    font-size: 40px;
+    color: black;
+    z-index: 1;
+}
+
+.texto3 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.texto4 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 29%;
+    left: 60px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.texto5 {
+    font-family: 'Century Gothic', sans-serif;
+    position: absolute;
+    top: 97%;
+    left: 335px;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.linea1 {
+    position: absolute;
+    top: 41%;
+    left: 35px;
+    width: 90%;
+    height: 1px;
+    background-color: black;
+}
+
+.linea2 {
+    position: absolute;
+    top: 90%;
+    left: 40px;
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    z-index: 1;
+}
+
+.fondo-imagen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url('Imageneshtml/cuarto1.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.cuadro-azul {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 233px;
+    height: 350px;
+    background-color: rgb(81, 209, 246);
+    z-index: 3;
+}
+
+.almohada {
+    position: absolute;
+    top: 50px;
+    left: 280px;
+    width: 525px;
+    height: auto;
+    z-index: 3;
+}
+
+.boton-imagen {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    left: -350px;
+    top: 450px;
+}
+
+.boton-imagen img {
+    width: 50px;
+    height: auto; 
+}
+
+.boton-imagen:hover {
+    background-color: lightgray;
+}
+
+.imagen1 {
+    position: absolute;
+    top: 700px;
+    right: 8%;
+    width: 700px;
+    z-index: 1;
+}
+
+.imagen2 {
+    position: absolute;
+    top: 1450px;
+    right: 62%;
+    width: 270px;
+    z-index: 1;
+}
+
+.imagen4 {
+    position: absolute;
+    top: 1850px;
+    right: 6%;
+    width: 370px;
+    z-index: 1;
+}
+
+.imagen5 {
+    position: absolute;
+    top: 1850px;
+    right: 50%;
+    width: 370px;
+    z-index: 1;
+}
+
+.linea-vertical {
+    position: absolute;
+    top: 490px;
+    right: 700px;
+    width: 2px;
+    height: 50px;
+    background-color: black;
+}
+
+.contenedor-texto {
+    position: relative;
+}
+
+.texto {
+    font-family: 'Century Gothic', sans-serif;
+    left: 20%;
+    position: absolute;
+    top: 375px;
+    font-size: 30px;
+}
+
+.cuadro {
+    width: 240px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid black;
+    position: absolute;
+    top: 540px;
+    right: 30px;
+}
+
+.linea-vertical2 {
+    position: absolute;
+    top: 40px;
+    right: 210px;
+    width: 2px;
+    height: 50px;
+    background-color: black;
+}
+ 
+.imagen-container {
+    top :43%;
+    position: relative;
+    width: 100%;
+    height: 660px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.imagen-hotel {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.imagen-hotel:nth-child(1) {
+    animation: fadeInOut 30s infinite 0s;
+}
+
+.imagen-hotel:nth-child(2) {
+    animation: fadeInOut 30s infinite 10s;
+}
+
+.imagen-hotel:nth-child(3) {
+    animation: fadeInOut 30s infinite 20s;
+}
+
+.imagen-hotel:nth-child(4) {
+    animation: fadeInOut 30s infinite 30s;
+}
+
+.imagen-hotel:nth-child(5) {
+    animation: fadeInOut 30s infinite 40s;
+}
+
+.imagen-hotel:nth-child(6) {
+    animation: fadeInOut 30s infinite 50s;
+}
+
+.imagen-hotel:nth-child(7) {
+    animation: fadeInOut 30s infinite 60s;
+}
+
+.imagen-hotel:nth-child(8) {
+    animation: fadeInOut 30s infinite 70s;
+}
+
+.texto-imagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    25%, 75% { opacity: 1; }
+}

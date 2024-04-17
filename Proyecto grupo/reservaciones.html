@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas en Línea</title>
+    <link rel="stylesheet" href="reservaciones.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="reservaciones.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="Imageneshtml/Logo.jpg">
+        <h1>Registro de habitaciones</h1>
+    </div>
+
+    <div class="reservation-form"> 
+        <h2></h2>
+        <form id="reservation-form" action="#" method="POST">
+            <label for="check-in">Fecha de Entrada:</label>
+            <input type="date" id="check-in" name="check-in" required>
+
+            <label for="check-out">Fecha de Salida:</label>
+            <input type="date" id="check-out" name="check-out" required>
+
+            <label for="guests">Número de Huéspedes:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+
+            <label for="room-type">Tipo de Habitación:</label>
+            <select name="room-type" id="room-type">
+                <option value="single">Individual</option>
+                <option value="double">Doble</option>
+                <option value="suite">Suite</option>
+            </select>
+            <button id="reserve-button" class="boton">Reservar Ahora</button>
+        </form>
+    </div>
+
+    <div class="Volver">
+        <a href="Proyecto.html" class="button Volver">Volver al Inicio</a>
+    </div>
+
+    <div class="fondo-imagen"></div>
+
+</body>
+
+</html>

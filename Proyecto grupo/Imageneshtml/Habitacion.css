@@ -1,0 +1,166 @@
+/* Estilo para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; /* Asegura que los elementos posicionados dentro de él se coloquen correctamente */
+}
+
+/* Estilo para la barra gris en la parte inferior */
+.barra-gris {
+    position: fixed; /* Fija la barra en la parte inferior de la ventana */
+    bottom: 0; /* Coloca la barra en la parte inferior */
+    left: 0; /* Coloca la barra en la parte izquierda */
+    width: 100%; /* Ancho completo */
+    height: 150px; /* Altura de la barra */
+    background-color: #ffffff; /* Color de fondo gris */
+    border-top: 1px solid black; /* Agrega una línea negra delgada en la parte superior */
+}
+
+
+
+
+
+
+
+
+
+
+/* Estilo para el cuadro blanco */
+.cuadro-blanco {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cuadro-azul {
+    position: absolute;
+    top: 50px; /* Puedes ajustar la posición según sea necesario */
+    left: 30px; /* Puedes ajustar la posición según sea necesario */
+    width: 233px; /* Puedes ajustar el ancho según sea necesario */
+    height: 350px; /* Puedes ajustar la altura según sea necesario */
+    background-color: rgb(81, 209, 246);
+    z-index: 3; /* Asegura que esté por encima del cuadro blanco y del cuadro gris */
+}
+
+/* Estilo para la imagen de almohada */
+.almohada {
+    position: absolute;
+    top: 50px; /* Puedes ajustar la posición según sea necesario */
+    left: 280px; /* Puedes ajustar la posición según sea necesario */
+    width: 525px; /* Puedes ajustar el ancho según sea necesario */
+    height: auto; /* El alto se ajustará automáticamente según el ancho */
+    z-index: 3; /* Asegura que esté por encima del cuadro blanco y del cuadro gris */
+}
+
+
+.linea {
+    width: 90%; /* Ancho completo */
+    height: 1px; /* Altura de la línea */
+    background-color: black; /* Color de la línea */
+    margin: 450px auto; /* Margen izquierdo y derecho automático para centrar horizontalmente */
+
+}
+
+.nueva-linea {
+    width: 90%; /* Ancho completo */
+    height: 1px; /* Altura de la línea */
+    background-color: black; /* Color de la línea */
+    margin: -570px auto; /* Margen izquierdo y derecho automático para centrar horizontalmente */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Estilo para el texto 'Disponible' */
+.texto-disponible {
+    position: absolute; /* Establece la posición absoluta */
+    top: 430px; /* Ajusta la posición verticalmente por encima de la línea */
+    left: 10%; /* Ajusta la posición horizontalmente */
+    font-family: 'Century Gothic', sans-serif; /* Fuente Century Gothic */
+    font-size: 16px; /* Tamaño de fuente */
+    color: black; /* Color del texto */
+    cursor: move; /* Cambia el cursor al mover */
+}
+
+
+.otra-imagen {
+    /* Estilos para la nueva imagen */
+    position: relative; /* Posición relativa para permitir ajustes de posición */
+    top: -320px; /* Ajusta la posición hacia abajo 50 píxeles */
+    left: -210px; /* Ajusta la posición hacia la derecha 20 píxeles */
+    width: 300px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+.nueva-linea-2 {
+    position: relative; /* Posición relativa para permitir ajustes de posición */
+   
+    top: -50px; /* Ajusta la posición hacia abajo 50 píxeles */
+    left: 40px; /* Ajusta la posición hacia la derecha 20 píxeles */ height: 1px; /* Altura de la línea */
+    background-color: rgb(0, 0, 0); /* Color de la línea */
+    margin-top: 910px; /* Espacio superior */
+    margin-bottom: -600px; /* Espacio inferior */
+    width: 720px; /* Ancho de la imagen */
+}
+
+
+
+
+
+
+/* Estilo para la imagen de fondo */
+.fondo-imagen {
+    position: fixed; /* Fija la imagen en la ventana del navegador */
+    top: 0; /* Coloca la imagen en la parte superior de la ventana */
+    left: 0; /* Coloca la imagen en la parte izquierda de la ventana */
+    width: 100%; /* Ajusta la anchura de la imagen para que abarque toda la ventana */
+    height: 100%; /* Ajusta la altura de la imagen para que abarque toda la ventana */
+    z-index: -1; /* Coloca la imagen detrás de otros elementos */
+    background-image: url('Imageneshtml/Picina\ 2.jpg'); /* Reemplaza la ruta con la imagen deseada */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
+    background-position: center center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+
+/* Estilo para las imágenes dentro del cuadro blanco */
+.imagen {
+    position: absolute;
+    width: 100px; /* Ancho inicial de la imagen */
+    height: 100px; /* Altura inicial de la imagen */
+    cursor: pointer; /* Cambia el cursor al mover */
+    /* Otras propiedades de estilo que desees aplicar */
+}
+
+/* Estilo para el cuadro azul */
+
+.texto-blanco {
+    color: white; /* Color de texto blanco */
+    font-family: 'Century Gothic', sans-serif; /* Fuente Century Gothic */
+    text-align: center; /* Centrar el texto */
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 10px; /* Ajustar la distancia desde la parte inferior según sea necesario */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    margin: 0; /* Eliminar el margen por defecto */
+    font-size: 20px; /* Tamaño de fuente más grande, ajusta según lo necesites */
+
+}
+
+
+

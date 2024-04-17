@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.nav {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    
+
+}
+
+.reservation-form {
+    text-align: center;
+    padding: 100px;
+    z-index: 1;
+}
+
+.reservation-form form {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    width: 300px;
+    
+}
+
+.reservation-form label,
+.reservation-form select,
+.reservation-form input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.reservation-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.reservation-form input[type="text"],
+.reservation-form select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.reservation-form button:hover {
+    background-color: #0056b3;
+}
+
+
+.cuadro-blanco {
+    position: absolute;
+    top: 58%;
+    /* Ajuste de la posición vertical */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 405px;
+    background-color: rgba(248, 234, 234, 0.8);
+    /* Cambiado a un color blanco con transparencia */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index:-1;
+}
+
+
+.fondo-imagen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    background-image: url('Imageneshtml/Picina 2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.button {
+    top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.Volver{
+    margin-top: -70px;
+    z-index: -1;
+    
+}
+
